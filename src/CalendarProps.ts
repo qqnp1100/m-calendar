@@ -16,7 +16,7 @@ export default interface PropsType {
   onConfirm?: (startDateTime?: Date, endDateTime?: Date) => void;
   /** 是否选择时间，default: false */
   pickTime?: boolean;
-  /** (web only) 样式前缀，default: rmc-calendar */
+  /** (web only) 样式前缀，default: rmc-calendar-bxb */
   prefixCls?: string;
   /** 替换快捷选择栏，需要设置showShortcut: true */
   renderShortcut?: (select: (startDate?: Date, endDate?: Date) => void) => React.ReactNode;

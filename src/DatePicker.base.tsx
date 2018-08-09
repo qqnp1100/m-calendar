@@ -10,7 +10,7 @@ export interface StateType {
 }
 export default abstract class DatePicker extends React.Component<PropsType, StateType> {
   static defaultProps = {
-    prefixCls: 'rmc-calendar',
+    prefixCls: 'rmc-calendar-bxb',
     infinite: false,
     infiniteOpt: false,
     defaultDate: new Date,
