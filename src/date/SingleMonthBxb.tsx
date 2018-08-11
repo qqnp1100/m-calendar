@@ -78,6 +78,7 @@ export default class SingleMonth extends React.PureComponent<
             cls += " date-selected";
             let styleType = day.selected;
             switch (styleType) {
+              case Models.SelectType.Single:
               case Models.SelectType.Only:
                 info = locale.begin;
                 // infoCls += " date-selected";
@@ -140,7 +141,7 @@ export default class SingleMonth extends React.PureComponent<
               lCls += " date-selected";
               rCls += " date-selected";
             }
-          }else{
+          } else {
             if (this.todaytick === day.tick) {
               cls += " today";
             }

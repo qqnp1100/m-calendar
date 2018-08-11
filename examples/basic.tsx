@@ -233,6 +233,7 @@ class BasicDemo extends React.Component<
           <CalendarBxb
             locale={en ? enUS : zhCN}
             {...this.state.config}
+            type="range"
             visible={this.state.showbxb}
             onCancel={() => {
               document.getElementsByTagName(

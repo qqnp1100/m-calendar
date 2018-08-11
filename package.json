@@ -1,6 +1,6 @@
 {
   "name": "rmc-calendar-bxb",
-  "version": "1.0.12",
+  "version": "1.1.1",
   "description": "爱橙子日期控件",
   "author": "xzy",
   "keywords": [
@@ -86,7 +86,7 @@
     "stylelint-config-standard": "^17.0.0"
   },
   "typings": "./lib/index.d.ts",
-  "pre-commit": [
+  "pre-commit-close": [
     "lint"
   ]
 }
